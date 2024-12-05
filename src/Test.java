@@ -1,6 +1,6 @@
 public class Test {
     public static void main(String[] args) {
-int x = 7, y = 9, z = 11;
+int x = 7, y = 9, z  = 10;
 
         if (x<y && x<z)
         {System.out.println(x);
