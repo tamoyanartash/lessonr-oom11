@@ -8,7 +8,7 @@ public class Taskk {
             int reversElemnt = 0;
             while (element != 0) {
                 reversElemnt = reversElemnt * 10 + element % 10;
-                element = element / 10; // 0}
+                element = element / 10;  // 0}
                 System.out.println(result);
 
             }

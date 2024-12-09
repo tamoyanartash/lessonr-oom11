@@ -1,6 +1,6 @@
 public class Task57 {
-    public static void main(String[] args) {
 
+    public static void main(String[] args){
         int x = 528;
         int miavor = (x % 10);
         int tasnavor = (x / 10) % 10;
