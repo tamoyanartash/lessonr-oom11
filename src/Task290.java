@@ -1,4 +1,4 @@
-public class Task290 {
+pugblic class Task290 {
     public static void main(String[] args) {
 
         int[] array = {14, 85, -46, 28, 78, 23, 5};
