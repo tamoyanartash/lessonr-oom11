@@ -12,7 +12,7 @@ public class Taskk4 {
         System.out.println();
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array[i].length; j++) {
-                if (i==j)
+                if (i>=j)
                 {
 
                     System.out.print(" ");
