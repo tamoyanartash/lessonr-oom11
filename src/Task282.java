@@ -9,15 +9,16 @@ public class Task282 {
                 count++;
             }
         }
-        int[] resalt = new int[count];
-        for (int i = 0; i < array.length; i++) {
+        int[] result = new int[count];
+
+        for (int i = 0, j = 0; i < array.length; i++) {
             if (array[i] != 0){
-                resalt[i] = array[i];
-                i++;
+                result[j] = array[i];
+                j++;
             }
         }
-        for (int i = 0; i < array.length; i++) {
-            System.out.print(resalt[i] + " ");
+        for (int i = 0; i < result.length; i++) {
+            System.out.print(result[i] + " ");
         }
 
     }
