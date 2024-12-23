@@ -5,7 +5,7 @@ public class Task308 {
         int k = 15;
 
 
-        for (int i = 10; i < 100 ; i++) {
+        for (int i = 10; i < 1000 ; i++) {
             if(i % k == 0){
                 count++;
             }
@@ -13,29 +13,15 @@ public class Task308 {
         }
         int []array =  new int [count];
 
-        for (int i = 10, j = 0; i < 100 ; i++) {
-
+        for (int i = 10, j = 0; i < 1000 ; i++) {
             if(i % k == 0) {
-                j++;
-            }
-        }
-        for (int i = 100; i < 1000 ; i++) {
-            if(i % k == 0){
-                count++;
-            }
-
-        }
-        int [] result =  new int [count];
-
-        for (int i = 100, j = 0; i < 1000 ; i++) {
-
-            if(i % k == 0) {
+                array[j] = i;
                 j++;
             }
         }
 
 
-        for (int i = 0; i < args.length; i++) {
+        for (int i = 0; i < array.length; i++) {
             System.out.print(array[i] + " ");
         }
     }

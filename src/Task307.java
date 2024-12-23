@@ -21,11 +21,12 @@ public class Task307 {
             int tasnavor = (i / 10) % 10;
             int haryuravor = (i / 100);
             if( miavor + tasnavor  + haryuravor == k) {
+                array[j] = i;
                 j++;
             }
         }
 
-        for (int i = 0; i < args.length; i++) {
+        for (int i = 0; i < array.length; i++) {
             System.out.print(array[i] + " ");
         }
     }
