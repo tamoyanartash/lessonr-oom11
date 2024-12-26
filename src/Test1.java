@@ -6,13 +6,14 @@ public class Test1 {
         computer.setCcolor("black");
         computer.setYear(2024);
         computer.setRam(16);
+        computer.setDesign("compact");
 
 
 
 
 
-
-        System.out.println(computer.getCcolor());
+        computer.printinfo();
+        System.out.println("----------");
 
 
 
