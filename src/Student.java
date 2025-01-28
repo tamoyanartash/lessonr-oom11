@@ -1,6 +1,17 @@
 public class Student {
+    public Student(String name, String surname, int year, double mark, char gender, boolean PHD) {
+        this.name = name;
+        this.surname = surname;
+        this.year = year;
+        this.mark = mark;
+        this.gender = gender;
+        this.PHD = PHD;
+    }
+    public Student(){
 
-private String name;
+    }
+
+    private String name;
 
 private String surname;
 
