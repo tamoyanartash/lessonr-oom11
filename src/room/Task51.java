@@ -2,9 +2,9 @@ package room;
 
 public class Task51 {
     public static void main(String[] args) {
-        int x = 759;
+        int t = 759;
         boolean b = false;
-        if(x % 10 == (x / 10) % 10 + x / 100){
+        if(t % 10 == (t / 10) % 10 + t / 100){
             b = true;
 
         }System.out.println(b);

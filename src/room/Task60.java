@@ -7,7 +7,7 @@ public class Task60 {
         int tasnavor = (x / 10) % 10;
         int haryuravor = (x / 100);
         if(miavor < tasnavor && tasnavor < haryuravor){
-            System.out.println(haryuravor  + " " + tasnavor  + " " + miavor);
+            System.out.println(haryuravor  + " " + tasnavor  + " " +    miavor);
         } else if (miavor < haryuravor && haryuravor < tasnavor) {
             System.out.println(tasnavor + " " + haryuravor + " " + miavor);
         } else if (tasnavor < miavor && miavor < haryuravor) {
