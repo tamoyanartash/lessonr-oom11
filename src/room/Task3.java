@@ -1,4 +1,6 @@
-public class Task03 {
+package room;
+
+public class Task3 {
     public static void main(String[] args) {
         int[] array = new int[20];
 
@@ -11,7 +13,5 @@ public class Task03 {
 
 
         }
-
-
     }
 }
