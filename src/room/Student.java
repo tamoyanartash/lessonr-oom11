@@ -18,6 +18,10 @@ public class Student {
         this.isPHD = isPHD;
     }
 
+    public Student() {
+
+    }
+
 
     public String getName() {
         return name;

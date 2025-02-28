@@ -62,7 +62,8 @@ public class Lesson {
                     for (int i = 0; i < indexoffstudent; i++) {
                         girlsAray[i] = students[i];
                     }
-                 for ()
+                    for (Student x : service.printGirls(girlsAray)) {
+                        x.printinfo();
                     }
                     break;
 

@@ -21,7 +21,7 @@ public class StudentService {
         boolean isPHD = scanner.nextBoolean();
 
 
-        return new Student(name, surname, year, mark, gender, isPHD);
+        return new Student();
 
 
     }
@@ -56,14 +56,23 @@ public class StudentService {
         return result;
     }
 
-    public void printGirls(Student[] students) {
-        for (int i = 0; i < students.length; i++) {
-            Student student = students[i];
-            if (student.getGender() == 'F') {
-                student.printinfo();
+    public  Student[] printGirls(Student[] students) {
+        int count = 0;
+        for (Student s : students) {
+            if (s.getGender() == 'F') {
+                count++;
             }
-
         }
+        Student[] result = new Student[count];
+        if (count == 0) {
+            return result;
+        }
+        for (int i = 0; i < students.length; i++) {
+            if (students[i].getGender() == 'F') {
+                result[i] = students[i];
+            }
+        }
+        return result;
 
 
     }
