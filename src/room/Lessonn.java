@@ -11,6 +11,7 @@ public class Lessonn {
         //Cat c = new Cat();
         //System.out.println(c.toString());
         //Eagle e = new Eagle();
+        //e.age=5;
         //System.out.println(e.toString());
     }
 
